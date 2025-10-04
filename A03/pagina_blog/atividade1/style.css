@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.sobre-nintendo
+{
+    background-color:rgb(231, 0, 0);
+    padding: 30px; /*Espaçamento entre os elementos*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    
+}
+.sobre-nintendo h1{
+    margin: 0;
+    font-size: 40px;
+}
+
+
+
+.conteudo-switch{
+    display: flex;
+    flex-wrap: wrap; /*Permite que as seções quebrem linha*/
+    justify-content: center;
+    gap: 40px; /*Espaços externos entre as seções*/
+    padding: 20px; /*Espaços internos entre os elementos de uma seção*/
+
+}
+
+
+.post{
+    background-color:rgb(231, 0, 0) ;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(145, 0, 0);
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.4; 
+    font-size: 17px;
+}
+
+.post img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+
+
+.post h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    padding: 30px;   /* cria espaço interno */
+    line-height: 1.4; /* aumenta o espaçamento entre linhas */
+}
+
+
+.post p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: rgb(252, 242, 242);
+
+}
+
+
+
+
+.historia{
+    flex: 1 1 400px;
+    background-color: rgb(167, 0, 0) ;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(145, 0, 0);
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.4; 
+    font-size: 17px;
+}
+
+
+.precos{
+
+    background-color:rgb(238, 46, 46) ;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(145, 0, 0);
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.4; 
+    font-size: 17px; 
+}
+
+
+.tecnico{
+
+    background-color:rgb(231, 0, 0) ;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(145, 0, 0);
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.4; 
+    font-size: 17px; 
+
+}
+
+.rodape-blog{
+    background-color:rgb(218, 0, 0);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+
+@media screen and (max-width: 400px) {
+    .sobre-nintendo{
+        text-align: right; 
+      
+    }
+
+    .sobre-nintendo h1{
+        margin-top: 10px;
+    }
+
+    .conteudo-switch{
+    padding: 10px;
+    flex: 1 1 400px;
+    border-radius: 12px;
+    display: flex;
+    text-align: center; 
+        
+    }
+    
+}
+
+
+
+
+

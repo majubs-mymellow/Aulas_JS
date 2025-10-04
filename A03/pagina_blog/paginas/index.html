@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>O essencial de HTML e CSS</title>
+</head>
+
+<body>
+    <!--criando uma tag para representar o cabeçalho-->
+    <header class="cabecalho-blog">
+        <div class="container">
+
+            <!--a tag serve para indicar quando temos um bloco de links-->
+            <nav>
+                <a href="#">
+                    <h1>Blog do JavaScript</h1>
+                </a>
+                <ul>
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#"> Sobre </a></li>
+                    <li><a href="#"> Contato </a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <!--Agora vamos fazer o corpo do blog, com o conteúdo principal-->
+
+
+    <main class="conteudo-principal-blog">
+
+        <div class="container">
+            <div class="layout-blog">
+
+                <!--article -> define um conteúdo(post de blog, notícia, um cometário)-->
+
+                <article class="post">
+                    <h2> Entendendo a base da web: HTML e CSS</h2>
+                    <p><em>Publicado em 20 de Setembro de 2025</em></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint eaque deserunt officiis quod
+                        excepturi! <em>Veritatis</em> distinctio voluptate cum, deleniti cumque natus facere repudiandae
+                        soluta
+                        qui earum laborum est repellendus ullam. Eaque aliquam natus fuga autem error ducimus voluptatem
+                        adipisci minima?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae harum repudiandae impedit
+                        nisi accusamus sapiente aspernatur hic explicabo. Doloremque, minus.</p>
+                </article>
+
+                <aside class="barra-lateral">
+                    <h3>Posts populares</h3>
+                    <ul>
+                        <li><a href="#"> Guia completo de flexbox</a></li>
+                        <li><a href="#"> Formulários com HTML5</a></li>
+                        <li><a href="#"> Criando animações com CSS</a></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape-blog">
+        <div class="container">
+            <p>&copy; 2025 Blog JavaScript. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

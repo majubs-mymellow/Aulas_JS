@@ -1,0 +1,68 @@
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML e CSS</title>
+</head>
+
+<body>
+    <h1>Conhecendo as tags essenciais do html</h1>
+    <p> Senai Almitrante Tamandaré <br> Av. Pereira Barraeto, 456- CEP 09851-000</p>
+    <p><strong> Esse é um parágrafo em que a tag strong foi aplicada.</strong></p>
+    <p><em> Esse é um parágrafo em que a tag em foi aplicada.</em></p>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h2>Esse aqui é um nível diferente do título</h2>
+    <h3>Usando um emmet para criar um título</h3>
+
+
+    <a href="https://www.google.com">Aprendendo a usar tags de link</a>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-VIXH-HoY31iwUb9PCUb_mecED5NqZDEXsg&s" alt="Descrição da imagem para garantir acessibilidade"> 
+
+    <h3>Trabalhando com listas não ordenadas </h3>
+    <ul>
+        <li>Café</li>
+        <li>Arroz</li>
+        <li>Morango</li>
+    </ul>
+    
+    <h3> Trabalhando com listas ordenadas</h3>
+    <ol>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+    </ol>
+
+
+    <h3>Trabalhando com Tabelas</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nintendo Switch</td>
+                <td>R$3.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Trabalhando com Formulário</h3>
+    <form action="/enviar" method="post">
+        <label for="nome"> Nome: </label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="email"> Email: </label>
+        <input type="email" id="email" name="email">
+
+        <button type="submit"> Enviar </button>
+
+    </form>
+
+</body>
+</html> -->
