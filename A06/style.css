@@ -1,13 +1,78 @@
-.container
-{
-    background-color:#f0f0f0;
-    padding: 80px;
-    border-radius: 3px;
-    box-shadow: 0 4px 8px rgb(111, 118, 121);
-    flex: 1 1 300px; 
-    text-align: center;
-    color: #030303;
-    gap: 25px;
-    margin: 300px;
+body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 194, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(222, 199, 252);
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(141, 100, 218);
+}
+
+.input-group {
+    margin-bottom: 20px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(192, 145, 223);
+    border-radius: 4px;
+    box-sizing: border-box;
+    /*Garante que o padding não aumente a largura total*/
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: lightgray;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+
+button:hover:enabled {
+    background-color: mediumpurple;
+}
+
+/*Estilo de Validação (interação com a tela)*/
+
+.mensagem-status {
+    margin-top: 5px;
+    font-size: xx-small;
+    height: 1.2em;
+}
+
+.erro {
+    color: red;
+    font-weight: bold;
+}
+
+.sucesso {
+    color: green;
+    font-weight: bold;
 }
