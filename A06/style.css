@@ -1,0 +1,14 @@
+.container
+{
+    background-color:#f0f0f0;
+    padding: 50px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgb(111, 118, 121);
+    flex: 1 1 300px; 
+    text-align: left;
+    color: #030303;
+    gap: 50px;
+    margin: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
