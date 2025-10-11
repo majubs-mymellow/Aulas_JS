@@ -43,6 +43,27 @@ input[type="email"] {
     /*Garante que o padding não aumente a largura total*/
 }
 
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(192, 145, 223);
+    border-radius: 4px;
+    box-sizing: border-box;
+    /*Garante que o padding não aumente a largura total*/
+}
+
+
+input[type="passwordConfirmation"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(192, 145, 223);
+    border-radius: 4px;
+    box-sizing: border-box;
+    /*Garante que o padding não aumente a largura total*/
+}
+
+
+
 button {
     width: 100%;
     padding: 10px;
@@ -68,6 +89,7 @@ button:hover:enabled {
     height: 1.2em;
 }
 
+
 .erro {
     color: red;
     font-weight: bold;
@@ -77,3 +99,5 @@ button:hover:enabled {
     color: green;
     font-weight: bold;
 }
+
+

@@ -15,8 +15,18 @@
         <form id="cadastroForm">
             <div class="input-group">
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" nome="email" required oninput="validarEmail()">
+                <input type="email" id="email" nome="email" required oninput="validarCadastro()">
                 <p id="mensagemErro" class="mensagem-status"></p>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" nome="password" required oninput="validarCadastro()">
+                
+                
+                <label for="passwordConfirmation">Confirmar a Senha:</label>
+                <input type="password" id="password" nome="password" required oninput="validarCadastro()">
+                <p id="mensagemErroSenha" class="mensagem-status"></p>
+
+        
             </div>
 
             <button type="submit" id="btnEnviar" disabled> Enviar Cadastro </button>
