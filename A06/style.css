@@ -5,6 +5,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    min-height: 100vh;
+    /*Garante que o corpo tenha uma altura de 100% da janela de visualização, permitindo a centralização vertical*/
 }
 
 .container {
