@@ -16,7 +16,7 @@ function validarEmail() {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 
-    let isvalido = false; 
+    let isValido = false; 
     //todo endereço de email que for digitado, será inválido,
     //até que a validação acuse que ele é válido.
 
@@ -25,6 +25,20 @@ function validarEmail() {
     if(email == ""){
         //Campo vazio: não é um erro, mas também não é válido para continuar
         mensagemErro.textContent = "Digite seu e-mail para continuar."
+        //limpar as classes de sucesso/erro
+        mensagemErro.className = "mensagem-status"
+        isValido = false
+    } else if (emailRegex.test(email)){
+        //email válido
+        mensagemErro.textContent = "Email válido!"
+        mensagemErro.className = 'mensagem-status sucesso'
+        btnEnviar.disabled = false;
+        isValido = true;
+    } else {
+        //email inválido
+        mensagemErro.textContent = "Email inválido."
+        mensagemErro.className = 'mensagem-status erro'
+        btnEnviar.disabled = true;
+        isValido = false;
     }
-
 }
